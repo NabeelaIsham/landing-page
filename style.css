@@ -1,0 +1,170 @@
+.navbar {
+    background-color: white; /* Set background color to white */
+    padding: 10px; /* Add padding to create space around elements */
+}
+.navbar img {
+
+    height: 50px;
+}
+section {
+    text-align: center;
+    background-color: white; /* Set background color to gray */
+   padding-top: 150px; /* Add padding for spacing */
+}
+h1 {
+    padding-bottom: 20px;
+}
+
+h1 span {
+    color: purple;
+    /* Set text color to purple */
+}
+
+h6 {
+    padding-bottom: 20px;
+    color: gray;
+     /* Set text color to gray */
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+   
+}
+
+img {
+    max-width: 100%; 
+    height:50%;/* Ensure the image doesn't exceed its container's width */
+    margin-top: 20px; /* Add space between the button and the image */
+}
+.btn-cyan {
+    background-color: cyan;
+    color: white;
+}
+.btn-black {
+    background-color: black;
+    color: white;
+}
+.left-section {
+text-align: left;
+margin-left: 320px;
+}
+.section-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-content .text-content {
+    flex: 1;
+    padding-left: 10px;
+}
+.emoji {
+font-size: 24px; /* Set the font size */
+color: purple;   /* Set the text color */
+}
+.image-container-1 {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+    margin-left: 60px;
+}
+.image-container-2 {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+    margin-right: 60px;
+}
+       /* Define the animation */
+       @keyframes floatUp {
+        0% {
+          transform: translateY(100%);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+
+      }
+      
+      /* Apply the animation to the headings */
+      h1 {
+        animation: floatUp 1.5s ease-in-out;
+      }
+      
+      h6 {
+        animation: floatUp 1.5s ease-in-out 0.5s; /* Delay the h6 animation */
+      }
+      btn btn-cyan {
+          animation: floatUp 1.5s ease-in-out 0.s; 
+      }
+      .custom-bg {
+          padding-bottom: 40px;
+          padding: 80px;
+          animation: floatUp 1.5s ease-in-out 0.5s;
+                  background-color: #0ad1c7d2; /* Change this to your desired background color */
+              }
+      
+              /* Custom CSS to remove card borders */
+              .card {
+                  animation: floatUp 1.5s ease-in-out 0.5s;
+                  padding-left: 200px;
+                  align-items: first baseline;
+                  border: none;
+              }
+              .custom-bg-1 {
+                  padding: 70px;
+                  background-color: blueviolet;
+              }
+              a {
+                  color: white;
+              }
+
+
+.custom-card {
+    height: 100%;
+    padding: 20px;
+    background-color: rgba(241, 241, 241, 0.822);
+    border-radius: 15px;
+}
+.card-2 {
+    background-color: rgba(241, 241, 241, 0.822);
+    border-radius: 15px;
+}
+
+.card-body {
+    text-align: center;
+    width: auto;
+}
+.card-body img {
+    padding-bottom: 10px;
+}
+
+.custom-bg-2 {
+    padding: 70px;
+    background-color: rgb(231, 230, 233);
+    align-items: first baseline;
+}
+
+.container-1 {
+    background-color: blueviolet;
+    width: 250px;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    margin: 60px;
+}
+.container-1 img {
+    border-radius: 25px;
+    margin: 25px;
+}
+
+.custom-bg-3 {
+    padding: 70px;
+
+}
+
+.custom-bg-4 {
+    text-align: center;
+}
